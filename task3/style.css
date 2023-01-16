@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#myForm{
+    display: flex;
+}
+body{
+    background-image: url(temps.jpg);
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -10;
+    opacity: 8;
+}
+.heading{
+    display: flex;
+    font-size: 100px;
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.form{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px solid black;
+    border-radius: 30px;  
+    background-color: #6fbc3f;
+    box-shadow: #5fa062 6px -36px 8px inset;
+}
+.celsius{
+       margin: 30px;
+       font-family: 'georgia';
+       justify-items: left;
+       align-items: flex-start;
+       padding: 10px 35px;
+       width: 300px;
+       background-color: transparent;
+       border: 3px solid white;
+       color: white;
+       outline: none;
+       transition: .6s ease;
+       border-radius: 25px;
+       font-family: century;
+
+
+}
+.fahrenheit{
+       margin: 30px;
+       font-family: 'georgia';
+       justify-content: right;
+       align-items: flex-end;
+       padding: 10px 35px;
+       width: 300px;
+       background-color: transparent;
+       border: 3px solid white;
+       color: white;
+       outline: none;
+       transition: .6s ease;
+       border-radius: 25px;
+       font-family: century;
+}
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 80px;
+  height: auto;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #e1bc5e;
+  box-shadow: #0a9611 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
